@@ -94,7 +94,7 @@ Misuse of inheritance can make code harder to maintain.
 | **Multiple Inheritance**     | Many Base → One Derived  | `Automobile + Features → Car`    | Combines features of multiple classes, flexible design      | May lead to ambiguity (Diamond Problem), harder to maintain    |
 | **Hybrid Inheritance**       | Mix of two or more types | `Vehicle + Engine → Car`         | Provides flexibility, supports complex relationships        | Very complex, prone to diamond problem, debugging is difficult |
 
-## Program Descriptions (Theory Form)
+## Program Descriptions
 ### Single Inheritance
 
 This program demonstrates single inheritance by creating a College class as the base and a Branch class as the derived class. 
