@@ -1,6 +1,6 @@
-//NAME: Saraswathi S
-//PRN: 22070123102
-//Exp-14
+//Mishree kalaria
+//24070123052
+//Batch: A2
 
 
 #include<iostream>
