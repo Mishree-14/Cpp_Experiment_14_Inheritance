@@ -94,6 +94,105 @@ Misuse of inheritance can make code harder to maintain.
 | **Multiple Inheritance**     | Many Base → One Derived  | `Automobile + Features → Car`    | Combines features of multiple classes, flexible design      | May lead to ambiguity (Diamond Problem), harder to maintain    |
 | **Hybrid Inheritance**       | Mix of two or more types | `Vehicle + Engine → Car`         | Provides flexibility, supports complex relationships        | Very complex, prone to diamond problem, debugging is difficult |
 
+## Algorithm
+### General Algorithm for Inheritance
+
+Start.
+
+Identify the base class (common attributes and methods).
+
+Identify the derived class(es) (specialized attributes and methods).
+
+Define the base class using the class keyword.
+
+Define the derived class using the : symbol with an access specifier (public, protected, or private).
+
+Add data members and member functions as required.
+
+Create objects of the derived class.
+
+Access base class and derived class functions using objects.
+
+Display the results.
+
+Stop.
+
+### Single Inheritance (College → Branch)
+
+Start.
+
+Define base class College with data member college_name and function displayCollege().
+
+Define derived class Branch (inherits from College).
+
+Add data member branch_name and function displayBranch().
+
+Create object of Branch.
+
+Call functions of both base and derived classes.
+
+Display output.
+
+Stop.
+
+### Multilevel Inheritance (Mobile → Origin → Brand)
+
+Start.
+
+Define base class Mobile with data member category and function displayCategory().
+
+Define class Origin inheriting from Mobile, with data member origin_country.
+
+Define class Brand inheriting from Origin, with data member brand_name.
+
+Create object of Brand.
+
+Call functions from all classes using the object.
+
+Display output.
+
+Stop.
+
+### Hierarchical Inheritance (Clothes → Jeans, Tops, Sweater)
+
+Start.
+
+Define base class Clothes with data member brand and function displayBrand().
+
+Define derived class Jeans with attribute color1.
+
+Define derived class Tops with attribute color2.
+
+Define derived class Sweater with attribute color3.
+
+Create objects of Jeans, Tops, and Sweater classes.
+
+Call functions of both base and derived classes.
+
+Display output for each object.
+
+Stop.
+
+### Multiple Inheritance (Automobile + Features → Car)
+
+Start.
+
+Define base class Automobile with data member company and function displayCompany().
+
+Define base class Features with data members like color, mileage.
+
+Define derived class Car inheriting from both Automobile and Features.
+
+Add function displayCar() to show combined details.
+
+Create object of Car.
+
+Call functions from both parent classes and the derived class.
+
+Display final details.
+
+Stop.
+
 ## Program Descriptions
 ### Single Inheritance
 
